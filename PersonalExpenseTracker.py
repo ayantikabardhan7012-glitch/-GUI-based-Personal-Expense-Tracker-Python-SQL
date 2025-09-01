@@ -3,7 +3,7 @@ from datetime import datetime
 
 # Connection string
 driver = 'SQL SERVER'
-server_name = 'Saket\\SQLEXPRESS'
+server_name = 'bardh\\SQLEXPRESS'
 database_name = 'Expenses'
 
 connection_string = f"""
@@ -147,3 +147,4 @@ def main_menu():
 # Run the app
 if __name__ == "__main__":
     main_menu()
+
